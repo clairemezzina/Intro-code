@@ -1,0 +1,33 @@
+/* style.css */
+body{
+  background: rgb(245,245,245);
+  color: pink;
+  font-size: 25px;
+  font-family: 'Poppins', sans-serif;
+
+}
+h1{
+  font-family: Courier;
+  color: purple;
+  font-weight: lighter;
+  font-size: 10px;
+}
+
+#title{
+  font-size: 50px;
+
+}
+
+h2 {
+  font-family: Courier;
+  color: orange;
+  font-weight: lighter;
+  font-size: 15px;
+}
+a {
+  color: green;
+}
+a:hover {
+  text-decoration: none;
+  color: purple;
+}
