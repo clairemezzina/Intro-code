@@ -39,10 +39,10 @@ h2 {
 }
 
 p{
-  color: #8e9bac;
+  color: #5ba1bd;
 }
 
-a { 
+a{ 
   color: #29324B;
 }
 
@@ -63,7 +63,7 @@ a:hover {
 
 /* Mis en forme de la baseline */
 #baseline{
-  background-color: #41A3C0;
+  background-image: url('Fond.jpg') !important;
   text-align: center;
   background-size: cover;
   padding: 150px;
@@ -78,7 +78,7 @@ a:hover {
 
 #baseline a {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: lighter;
   text-decoration: none;
 }
@@ -105,6 +105,14 @@ a:hover {
   justify-content: center;
 }
 
+#defis{
+  margin: 0 auto;
+  width: 80%;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 #logo{
   color: #fff;
   font-size: 35px;
@@ -114,10 +122,12 @@ a:hover {
 }
 
 #welcome{
-  background-color: #41A3C0;
+  background-image: url('Fond.jpg') !important;
   text-align: center;
-  padding: 50px;
+  background-size: cover;
+  padding: 150px;
   color: white;
+  text-shadow: 1px 1px 5px black;
 }
 
 #welcome h4{
@@ -125,3 +135,9 @@ a:hover {
 }
 
 
+#download{
+  background-color: #5ba1bd;
+  text-align: center;
+  padding: 10px;
+  color: white;
+}
